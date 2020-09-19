@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP THS7316
+D 3-Channel HDTV Video Amplifier with 5th Order Filters and 6dB Gain
+F https://www.ti.com/lit/ds/symlink/ths7316.pdf
+$ENDCMP
+#
+#End Doc Library
