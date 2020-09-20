@@ -403,8 +403,6 @@ F 4 "tbd" H 1350 6150 50  0001 C CNN "Manufacturer Part Number"
 	1    1350 6150
 	0    1    1    0   
 $EndComp
-Text Label 1650 6150 2    50   ~ 0
-5V
 Text Label 900  6150 0    50   ~ 0
 5V_IN
 Wire Wire Line
@@ -915,4 +913,30 @@ F 4 "B3B-XH-A(LF)(SN)" H 1700 1900 50  0001 C CNN "Manufacturer Part Number"
 	1    1700 1900
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:CP C8
+U 1 1 5F681767
+P 2200 6400
+F 0 "C8" H 2318 6446 50  0000 L CNN
+F 1 "100uCP" H 2318 6355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2238 6250 50  0001 C CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_zlh.pdf" H 2200 6400 50  0001 C CNN
+F 4 "16ZLH100MEFC5X11" H 2200 6400 50  0001 C CNN "Manufacturer Part Number"
+	1    2200 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6150 2200 6150
+Connection ~ 1650 6150
+Wire Wire Line
+	2200 6250 2200 6150
+Connection ~ 2200 6150
+Wire Wire Line
+	2200 6150 2700 6150
+Text Label 2700 6150 2    50   ~ 0
+5V
+Text Label 2200 6750 1    50   ~ 0
+GND
+Wire Wire Line
+	2200 6750 2200 6550
 $EndSCHEMATC
