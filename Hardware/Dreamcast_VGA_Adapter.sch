@@ -236,7 +236,7 @@ F 0 "C4" V 6898 2200 50  0000 C CNN
 F 1 "0.1uC" V 6989 2200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7188 2050 50  0001 C CNN
 F 3 "~" H 7150 2200 50  0001 C CNN
-F 4 "tbd" H 7150 2200 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 7150 2200 50  0001 C CNN "Manufacturer Part Number"
 	1    7150 2200
 	0    1    1    0   
 $EndComp
@@ -248,7 +248,7 @@ F 0 "C5" V 6898 3100 50  0000 C CNN
 F 1 "0.1uC" V 6989 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7188 2950 50  0001 C CNN
 F 3 "~" H 7150 3100 50  0001 C CNN
-F 4 "tbd" H 7150 3100 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 7150 3100 50  0001 C CNN "Manufacturer Part Number"
 	1    7150 3100
 	0    1    1    0   
 $EndComp
@@ -260,7 +260,7 @@ F 0 "C6" V 6898 4000 50  0000 C CNN
 F 1 "0.1uC" V 6989 4000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7188 3850 50  0001 C CNN
 F 3 "~" H 7150 4000 50  0001 C CNN
-F 4 "tbd" H 7150 4000 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 7150 4000 50  0001 C CNN "Manufacturer Part Number"
 	1    7150 4000
 	0    1    1    0   
 $EndComp
@@ -323,9 +323,9 @@ F 4 "THS7316DR" H 6100 2750 50  0001 C CNN "Manufacturer Part Number"
 	1    6100 2750
 	1    0    0    -1  
 $EndComp
-Text Label 3350 1800 0    50   ~ 0
+Text Label 2800 1800 0    50   ~ 0
 DAC_GREEN
-Text Label 3350 2700 0    50   ~ 0
+Text Label 2800 2700 0    50   ~ 0
 DAC_BLUE
 Text Label 6100 3350 1    50   ~ 0
 GND
@@ -339,7 +339,7 @@ F 0 "C7" H 5915 1596 50  0000 L CNN
 F 1 "1uC" H 5915 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5838 1400 50  0001 C CNN
 F 3 "~" H 5800 1550 50  0001 C CNN
-F 4 "tbd" H 5800 1550 50  0001 C CNN "Manufacturer Part Number"
+F 4 "CC0805MKX7R7BB105" H 5800 1550 50  0001 C CNN "Manufacturer Part Number"
 	1    5800 1550
 	1    0    0    -1  
 $EndComp
@@ -363,7 +363,7 @@ F 0 "C9" V 4548 1800 50  0000 C CNN
 F 1 "0.1uC" V 4639 1800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 1650 50  0001 C CNN
 F 3 "~" H 4800 1800 50  0001 C CNN
-F 4 "tbd" H 4800 1800 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 4800 1800 50  0001 C CNN "Manufacturer Part Number"
 	1    4800 1800
 	0    1    1    0   
 $EndComp
@@ -375,7 +375,7 @@ F 0 "C10" V 4548 2700 50  0000 C CNN
 F 1 "0.1uC" V 4639 2700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 2550 50  0001 C CNN
 F 3 "~" H 4800 2700 50  0001 C CNN
-F 4 "tbd" H 4800 2700 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 4800 2700 50  0001 C CNN "Manufacturer Part Number"
 	1    4800 2700
 	0    1    1    0   
 $EndComp
@@ -387,7 +387,7 @@ F 0 "C11" V 4548 3600 50  0000 C CNN
 F 1 "0.1uC" V 4639 3600 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 3450 50  0001 C CNN
 F 3 "~" H 4800 3600 50  0001 C CNN
-F 4 "tbd" H 4800 3600 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 4800 3600 50  0001 C CNN "Manufacturer Part Number"
 	1    4800 3600
 	0    1    1    0   
 $EndComp
@@ -447,7 +447,7 @@ Text Label 5100 3100 3    50   ~ 0
 5V
 Wire Wire Line
 	5100 3100 5100 3250
-Text Label 3350 3600 0    50   ~ 0
+Text Label 2800 3600 0    50   ~ 0
 DAC_RED
 Wire Wire Line
 	6600 2700 6900 2700
@@ -469,57 +469,57 @@ Connection ~ 6900 3600
 $Comp
 L Device:C C12
 U 1 1 5F1E6679
-P 3950 2000
-F 0 "C12" H 4065 2046 50  0000 L CNN
-F 1 "10pC" H 4065 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 1850 50  0001 C CNN
-F 3 "~" H 3950 2000 50  0001 C CNN
-F 4 "DNP" H 3950 2000 50  0001 C CNN "Manufacturer Part Number"
-	1    3950 2000
+P 3400 2000
+F 0 "C12" H 3515 2046 50  0000 L CNN
+F 1 "5pC" H 3515 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 1850 50  0001 C CNN
+F 3 "~" H 3400 2000 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 3400 2000 50  0001 C CNN "Manufacturer Part Number"
+	1    3400 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C13
 U 1 1 5F1E76F3
-P 3950 2900
-F 0 "C13" H 4065 2946 50  0000 L CNN
-F 1 "10pC" H 4065 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 2750 50  0001 C CNN
-F 3 "~" H 3950 2900 50  0001 C CNN
-F 4 "DNP" H 3950 2900 50  0001 C CNN "Manufacturer Part Number"
-	1    3950 2900
+P 3400 2900
+F 0 "C13" H 3515 2946 50  0000 L CNN
+F 1 "5pC" H 3515 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 2750 50  0001 C CNN
+F 3 "~" H 3400 2900 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 3400 2900 50  0001 C CNN "Manufacturer Part Number"
+	1    3400 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C14
 U 1 1 5F1E806E
-P 3950 3800
-F 0 "C14" H 4065 3846 50  0000 L CNN
-F 1 "10pC" H 4065 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 3650 50  0001 C CNN
-F 3 "~" H 3950 3800 50  0001 C CNN
-F 4 "DNP" H 3950 3800 50  0001 C CNN "Manufacturer Part Number"
-	1    3950 3800
+P 3400 3800
+F 0 "C14" H 3515 3846 50  0000 L CNN
+F 1 "5pC" H 3515 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 3650 50  0001 C CNN
+F 3 "~" H 3400 3800 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 3400 3800 50  0001 C CNN "Manufacturer Part Number"
+	1    3400 3800
 	1    0    0    -1  
 $EndComp
-Text Label 3950 2350 1    50   ~ 0
+Text Label 3400 2350 1    50   ~ 0
 GND
 Wire Wire Line
-	3950 2150 3950 2350
-Text Label 3950 3250 1    50   ~ 0
+	3400 2150 3400 2350
+Text Label 3400 3250 1    50   ~ 0
 GND
 Wire Wire Line
-	3950 3050 3950 3250
-Text Label 3950 4150 1    50   ~ 0
+	3400 3050 3400 3250
+Text Label 3400 4150 1    50   ~ 0
 GND
 Wire Wire Line
-	3950 3950 3950 4150
+	3400 3950 3400 4150
 Wire Wire Line
-	3950 3600 3950 3650
+	3400 3600 3400 3650
 Wire Wire Line
-	3950 2750 3950 2700
+	3400 2750 3400 2700
 Wire Wire Line
-	3950 1850 3950 1800
+	3400 1850 3400 1800
 Wire Wire Line
 	5100 2700 5250 2700
 Connection ~ 5100 2700
@@ -565,7 +565,7 @@ F 0 "R14" H 5320 3846 50  0000 L CNN
 F 1 "1kR" H 5320 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 3800 50  0001 C CNN
 F 3 "~" H 5250 3800 50  0001 C CNN
-F 4 "DNP" H 5250 3800 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RC0805FR-071KL" H 5250 3800 50  0001 C CNN "Manufacturer Part Number"
 	1    5250 3800
 	1    0    0    -1  
 $EndComp
@@ -581,7 +581,7 @@ F 0 "R13" H 5320 2946 50  0000 L CNN
 F 1 "1kR" H 5320 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 2900 50  0001 C CNN
 F 3 "~" H 5250 2900 50  0001 C CNN
-F 4 "DNP" H 5250 2900 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RC0805FR-071KL" H 5250 2900 50  0001 C CNN "Manufacturer Part Number"
 	1    5250 2900
 	1    0    0    -1  
 $EndComp
@@ -597,7 +597,7 @@ F 0 "R12" H 5320 2046 50  0000 L CNN
 F 1 "1kR" H 5320 1955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 2000 50  0001 C CNN
 F 3 "~" H 5250 2000 50  0001 C CNN
-F 4 "DNP" H 5250 2000 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RC0805FR-071KL" H 5250 2000 50  0001 C CNN "Manufacturer Part Number"
 	1    5250 2000
 	1    0    0    -1  
 $EndComp
@@ -672,7 +672,7 @@ F 0 "C15" H 7565 5746 50  0000 L CNN
 F 1 "0.1uC" H 7565 5655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7488 5550 50  0001 C CNN
 F 3 "~" H 7450 5700 50  0001 C CNN
-F 4 "tbd" H 7450 5700 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 7450 5700 50  0001 C CNN "Manufacturer Part Number"
 	1    7450 5700
 	1    0    0    -1  
 $EndComp
@@ -696,7 +696,7 @@ F 0 "R15" H 6270 5196 50  0000 L CNN
 F 1 "10kR" H 6270 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 5150 50  0001 C CNN
 F 3 "~" H 6200 5150 50  0001 C CNN
-F 4 "DNP" H 6200 5150 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RC0805FR-0710KL" H 6200 5150 50  0001 C CNN "Manufacturer Part Number"
 	1    6200 5150
 	1    0    0    -1  
 $EndComp
@@ -712,7 +712,7 @@ F 0 "R16" H 6270 6096 50  0000 L CNN
 F 1 "10kR" H 6270 6005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 6050 50  0001 C CNN
 F 3 "~" H 6200 6050 50  0001 C CNN
-F 4 "DNP" H 6200 6050 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RC0805FR-0710KL" H 6200 6050 50  0001 C CNN "Manufacturer Part Number"
 	1    6200 6050
 	1    0    0    -1  
 $EndComp
@@ -778,7 +778,7 @@ F 0 "C17" H 1765 6446 50  0000 L CNN
 F 1 "0.1uC" H 1765 6355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1688 6250 50  0001 C CNN
 F 3 "~" H 1650 6400 50  0001 C CNN
-F 4 "tbd" H 1650 6400 50  0001 C CNN "Manufacturer Part Number"
+F 4 "AC0805KRX7R7BB104" H 1650 6400 50  0001 C CNN "Manufacturer Part Number"
 	1    1650 6400
 	1    0    0    -1  
 $EndComp
@@ -979,27 +979,90 @@ Wire Wire Line
 Wire Wire Line
 	4350 1800 4350 1850
 Wire Wire Line
-	3350 3600 3950 3600
-Connection ~ 3950 3600
-Wire Wire Line
-	3950 3600 4350 3600
-Connection ~ 4350 3600
-Wire Wire Line
 	4350 3600 4650 3600
-Wire Wire Line
-	3350 2700 3950 2700
-Connection ~ 3950 2700
-Wire Wire Line
-	3950 2700 4350 2700
-Connection ~ 4350 2700
 Wire Wire Line
 	4350 2700 4650 2700
 Wire Wire Line
-	3350 1800 3950 1800
-Connection ~ 3950 1800
-Wire Wire Line
-	3950 1800 4350 1800
-Connection ~ 4350 1800
-Wire Wire Line
 	4350 1800 4650 1800
+$Comp
+L Device:C C18
+U 1 1 5F71B7CD
+P 3900 2000
+F 0 "C18" H 4015 2046 50  0000 L CNN
+F 1 "5pC" H 4015 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3938 1850 50  0001 C CNN
+F 3 "~" H 3900 2000 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 3900 2000 50  0001 C CNN "Manufacturer Part Number"
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5F71B7D4
+P 3900 2900
+F 0 "C19" H 4015 2946 50  0000 L CNN
+F 1 "5pC" H 4015 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3938 2750 50  0001 C CNN
+F 3 "~" H 3900 2900 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 3900 2900 50  0001 C CNN "Manufacturer Part Number"
+	1    3900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5F71B7DB
+P 3900 3800
+F 0 "C20" H 4015 3846 50  0000 L CNN
+F 1 "5pC" H 4015 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3938 3650 50  0001 C CNN
+F 3 "~" H 3900 3800 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 3900 3800 50  0001 C CNN "Manufacturer Part Number"
+	1    3900 3800
+	1    0    0    -1  
+$EndComp
+Text Label 3900 2350 1    50   ~ 0
+GND
+Wire Wire Line
+	3900 2150 3900 2350
+Text Label 3900 3250 1    50   ~ 0
+GND
+Wire Wire Line
+	3900 3050 3900 3250
+Text Label 3900 4150 1    50   ~ 0
+GND
+Wire Wire Line
+	3900 3950 3900 4150
+Wire Wire Line
+	3900 3600 3900 3650
+Wire Wire Line
+	3900 2750 3900 2700
+Wire Wire Line
+	3900 1850 3900 1800
+Wire Wire Line
+	4350 1800 3900 1800
+Connection ~ 4350 1800
+Connection ~ 3400 1800
+Wire Wire Line
+	3400 1800 2800 1800
+Connection ~ 3900 1800
+Wire Wire Line
+	3900 1800 3400 1800
+Wire Wire Line
+	2800 2700 3400 2700
+Connection ~ 4350 2700
+Connection ~ 3400 2700
+Wire Wire Line
+	3400 2700 3900 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	3900 2700 4350 2700
+Wire Wire Line
+	4350 3600 3900 3600
+Connection ~ 4350 3600
+Connection ~ 3400 3600
+Wire Wire Line
+	3400 3600 2800 3600
+Connection ~ 3900 3600
+Wire Wire Line
+	3900 3600 3400 3600
 $EndSCHEMATC
