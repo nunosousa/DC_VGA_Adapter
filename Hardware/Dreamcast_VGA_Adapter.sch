@@ -209,10 +209,10 @@ L Device:R R4
 U 1 1 5F1C76E1
 P 5250 5400
 F 0 "R4" V 5043 5400 50  0000 C CNN
-F 1 "36R" V 5134 5400 50  0000 C CNN
+F 1 "39R" V 5134 5400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 5400 50  0001 C CNN
 F 3 "~" H 5250 5400 50  0001 C CNN
-F 4 "tbd" H 5250 5400 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RC0805FR-0739RL" H 5250 5400 50  0001 C CNN "Manufacturer Part Number"
 	1    5250 5400
 	0    1    1    0   
 $EndComp
@@ -221,10 +221,10 @@ L Device:R R5
 U 1 1 5F1C78F6
 P 5250 6300
 F 0 "R5" V 5043 6300 50  0000 C CNN
-F 1 "36R" V 5134 6300 50  0000 C CNN
+F 1 "39R" V 5134 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 6300 50  0001 C CNN
 F 3 "~" H 5250 6300 50  0001 C CNN
-F 4 "tbd" H 5250 6300 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RC0805FR-0739RL" H 5250 6300 50  0001 C CNN "Manufacturer Part Number"
 	1    5250 6300
 	0    1    1    0   
 $EndComp
@@ -399,7 +399,7 @@ F 0 "FB1" V 1076 6150 50  0000 C CNN
 F 1 "Ferrite_Bead" V 1167 6150 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 6150 50  0001 C CNN
 F 3 "~" H 1350 6150 50  0001 C CNN
-F 4 "tbd" H 1350 6150 50  0001 C CNN "Manufacturer Part Number"
+F 4 "BLM21SP471SH1D" H 1350 6150 50  0001 C CNN "Manufacturer Part Number"
 	1    1350 6150
 	0    1    1    0   
 $EndComp
@@ -758,7 +758,7 @@ F 0 "C16" H 6415 1596 50  0000 L CNN
 F 1 "0.01uC" H 6415 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6338 1400 50  0001 C CNN
 F 3 "~" H 6300 1550 50  0001 C CNN
-F 4 "tbd" H 6300 1550 50  0001 C CNN "Manufacturer Part Number"
+F 4 "CC0805KRX7R9BB103" H 6300 1550 50  0001 C CNN "Manufacturer Part Number"
 	1    6300 1550
 	1    0    0    -1  
 $EndComp
