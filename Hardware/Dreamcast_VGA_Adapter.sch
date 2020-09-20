@@ -415,7 +415,7 @@ F 0 "R10" H 5170 2546 50  0000 L CNN
 F 1 "5.1MR" H 5170 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 2500 50  0001 C CNN
 F 3 "~" H 5100 2500 50  0001 C CNN
-F 4 "DNP" H 5100 2500 50  0001 C CNN "Manufacturer Part Number"
+F 4 "KTR10EZPF5104" H 5100 2500 50  0001 C CNN "Manufacturer Part Number"
 	1    5100 2500
 	1    0    0    -1  
 $EndComp
@@ -427,7 +427,7 @@ F 0 "R11" H 5170 3446 50  0000 L CNN
 F 1 "5.1MR" H 5170 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 3400 50  0001 C CNN
 F 3 "~" H 5100 3400 50  0001 C CNN
-F 4 "DNP" H 5100 3400 50  0001 C CNN "Manufacturer Part Number"
+F 4 "KTR10EZPF5104" H 5100 3400 50  0001 C CNN "Manufacturer Part Number"
 	1    5100 3400
 	1    0    0    -1  
 $EndComp
@@ -544,7 +544,7 @@ F 0 "R9" H 5170 1646 50  0000 L CNN
 F 1 "5.1MR" H 5170 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 1600 50  0001 C CNN
 F 3 "~" H 5100 1600 50  0001 C CNN
-F 4 "DNP" H 5100 1600 50  0001 C CNN "Manufacturer Part Number"
+F 4 "KTR10EZPF5104" H 5100 1600 50  0001 C CNN "Manufacturer Part Number"
 	1    5100 1600
 	1    0    0    -1  
 $EndComp
