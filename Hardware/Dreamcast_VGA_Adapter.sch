@@ -323,9 +323,9 @@ F 4 "THS7316DR" H 6100 2750 50  0001 C CNN "Manufacturer Part Number"
 	1    6100 2750
 	1    0    0    -1  
 $EndComp
-Text Label 3900 1800 0    50   ~ 0
+Text Label 3350 1800 0    50   ~ 0
 DAC_GREEN
-Text Label 3900 2700 0    50   ~ 0
+Text Label 3350 2700 0    50   ~ 0
 DAC_BLUE
 Text Label 6100 3350 1    50   ~ 0
 GND
@@ -447,14 +447,8 @@ Text Label 5100 3100 3    50   ~ 0
 5V
 Wire Wire Line
 	5100 3100 5100 3250
-Text Label 3900 3600 0    50   ~ 0
+Text Label 3350 3600 0    50   ~ 0
 DAC_RED
-Wire Wire Line
-	3900 1800 4350 1800
-Wire Wire Line
-	3900 2700 4350 2700
-Wire Wire Line
-	3900 3600 4350 3600
 Wire Wire Line
 	6600 2700 6900 2700
 Connection ~ 6900 2700
@@ -475,57 +469,57 @@ Connection ~ 6900 3600
 $Comp
 L Device:C C12
 U 1 1 5F1E6679
-P 4350 2000
-F 0 "C12" H 4465 2046 50  0000 L CNN
-F 1 "10pC" H 4465 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 1850 50  0001 C CNN
-F 3 "~" H 4350 2000 50  0001 C CNN
-F 4 "DNP" H 4350 2000 50  0001 C CNN "Manufacturer Part Number"
-	1    4350 2000
+P 3950 2000
+F 0 "C12" H 4065 2046 50  0000 L CNN
+F 1 "10pC" H 4065 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 1850 50  0001 C CNN
+F 3 "~" H 3950 2000 50  0001 C CNN
+F 4 "DNP" H 3950 2000 50  0001 C CNN "Manufacturer Part Number"
+	1    3950 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C13
 U 1 1 5F1E76F3
-P 4350 2900
-F 0 "C13" H 4465 2946 50  0000 L CNN
-F 1 "10pC" H 4465 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 2750 50  0001 C CNN
-F 3 "~" H 4350 2900 50  0001 C CNN
-F 4 "DNP" H 4350 2900 50  0001 C CNN "Manufacturer Part Number"
-	1    4350 2900
+P 3950 2900
+F 0 "C13" H 4065 2946 50  0000 L CNN
+F 1 "10pC" H 4065 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 2750 50  0001 C CNN
+F 3 "~" H 3950 2900 50  0001 C CNN
+F 4 "DNP" H 3950 2900 50  0001 C CNN "Manufacturer Part Number"
+	1    3950 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C14
 U 1 1 5F1E806E
-P 4350 3800
-F 0 "C14" H 4465 3846 50  0000 L CNN
-F 1 "10pC" H 4465 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 3650 50  0001 C CNN
-F 3 "~" H 4350 3800 50  0001 C CNN
-F 4 "DNP" H 4350 3800 50  0001 C CNN "Manufacturer Part Number"
-	1    4350 3800
+P 3950 3800
+F 0 "C14" H 4065 3846 50  0000 L CNN
+F 1 "10pC" H 4065 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3988 3650 50  0001 C CNN
+F 3 "~" H 3950 3800 50  0001 C CNN
+F 4 "DNP" H 3950 3800 50  0001 C CNN "Manufacturer Part Number"
+	1    3950 3800
 	1    0    0    -1  
 $EndComp
-Text Label 4350 2350 1    50   ~ 0
+Text Label 3950 2350 1    50   ~ 0
 GND
 Wire Wire Line
-	4350 2150 4350 2350
-Text Label 4350 3250 1    50   ~ 0
+	3950 2150 3950 2350
+Text Label 3950 3250 1    50   ~ 0
 GND
 Wire Wire Line
-	4350 3050 4350 3250
-Text Label 4350 4150 1    50   ~ 0
+	3950 3050 3950 3250
+Text Label 3950 4150 1    50   ~ 0
 GND
 Wire Wire Line
-	4350 3950 4350 4150
+	3950 3950 3950 4150
 Wire Wire Line
-	4350 3600 4350 3650
+	3950 3600 3950 3650
 Wire Wire Line
-	4350 2750 4350 2700
+	3950 2750 3950 2700
 Wire Wire Line
-	4350 1850 4350 1800
+	3950 1850 3950 1800
 Wire Wire Line
 	5100 2700 5250 2700
 Connection ~ 5100 2700
@@ -744,15 +738,6 @@ Text Label 10000 2100 3    50   ~ 0
 GND
 Wire Wire Line
 	10000 2300 10000 2100
-Wire Wire Line
-	4650 1800 4350 1800
-Connection ~ 4350 1800
-Wire Wire Line
-	4350 2700 4650 2700
-Connection ~ 4350 2700
-Wire Wire Line
-	4650 3600 4350 3600
-Connection ~ 4350 3600
 Text Notes 5850 1000 0    50   ~ 0
 Video filter
 Text Notes 6000 4700 0    50   ~ 0
@@ -939,4 +924,82 @@ Text Label 2200 6750 1    50   ~ 0
 GND
 Wire Wire Line
 	2200 6750 2200 6550
+$Comp
+L Device:R R8
+U 1 1 5F688AE7
+P 4350 3800
+F 0 "R8" H 4420 3846 50  0000 L CNN
+F 1 "75R" H 4420 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 3800 50  0001 C CNN
+F 3 "~" H 4350 3800 50  0001 C CNN
+F 4 "KTR10EZPF75R0" H 4350 3800 50  0001 C CNN "Manufacturer Part Number"
+	1    4350 3800
+	1    0    0    -1  
+$EndComp
+Text Label 4350 4150 1    50   ~ 0
+GND
+Wire Wire Line
+	4350 3950 4350 4150
+$Comp
+L Device:R R7
+U 1 1 5F68EF9F
+P 4350 2900
+F 0 "R7" H 4420 2946 50  0000 L CNN
+F 1 "75R" H 4420 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 2900 50  0001 C CNN
+F 3 "~" H 4350 2900 50  0001 C CNN
+F 4 "KTR10EZPF75R0" H 4350 2900 50  0001 C CNN "Manufacturer Part Number"
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+Text Label 4350 3250 1    50   ~ 0
+GND
+Wire Wire Line
+	4350 3050 4350 3250
+$Comp
+L Device:R R6
+U 1 1 5F695598
+P 4350 2000
+F 0 "R6" H 4420 2046 50  0000 L CNN
+F 1 "75R" H 4420 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 2000 50  0001 C CNN
+F 3 "~" H 4350 2000 50  0001 C CNN
+F 4 "KTR10EZPF75R0" H 4350 2000 50  0001 C CNN "Manufacturer Part Number"
+	1    4350 2000
+	1    0    0    -1  
+$EndComp
+Text Label 4350 2350 1    50   ~ 0
+GND
+Wire Wire Line
+	4350 2150 4350 2350
+Wire Wire Line
+	4350 3600 4350 3650
+Wire Wire Line
+	4350 2700 4350 2750
+Wire Wire Line
+	4350 1800 4350 1850
+Wire Wire Line
+	3350 3600 3950 3600
+Connection ~ 3950 3600
+Wire Wire Line
+	3950 3600 4350 3600
+Connection ~ 4350 3600
+Wire Wire Line
+	4350 3600 4650 3600
+Wire Wire Line
+	3350 2700 3950 2700
+Connection ~ 3950 2700
+Wire Wire Line
+	3950 2700 4350 2700
+Connection ~ 4350 2700
+Wire Wire Line
+	4350 2700 4650 2700
+Wire Wire Line
+	3350 1800 3950 1800
+Connection ~ 3950 1800
+Wire Wire Line
+	3950 1800 4350 1800
+Connection ~ 4350 1800
+Wire Wire Line
+	4350 1800 4650 1800
 $EndSCHEMATC
