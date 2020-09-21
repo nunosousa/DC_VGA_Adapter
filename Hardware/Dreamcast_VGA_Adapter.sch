@@ -802,102 +802,56 @@ F 4 "K61X-E15S-NJ" H 10000 3000 50  0001 C CNN "Manufacturer Part Number"
 	1    10000 3000
 	1    0    0    1   
 $EndComp
-Text Label 2300 2850 2    50   ~ 0
+Text Label 1800 2750 2    50   ~ 0
 V-SYNC
-Text Label 2300 3500 2    50   ~ 0
+Text Label 1800 3150 2    50   ~ 0
 DAC_BLUE
-Text Label 2300 3900 2    50   ~ 0
+Text Label 1800 3350 2    50   ~ 0
 DAC_RED
 Wire Wire Line
-	1900 3900 2300 3900
+	1400 3350 1800 3350
 Wire Wire Line
-	2300 3500 1900 3500
+	1800 3150 1400 3150
 Wire Wire Line
-	1900 2850 2300 2850
+	1400 2750 1800 2750
 Wire Wire Line
-	2300 1800 1900 1800
-Text Label 2300 1800 2    50   ~ 0
+	1800 2150 1400 2150
+Text Label 1800 2150 2    50   ~ 0
 AUDIO-R
 Wire Wire Line
-	1900 3700 2300 3700
+	1400 3250 1800 3250
 Wire Wire Line
-	2300 2950 1900 2950
+	1800 2850 1400 2850
 Wire Wire Line
-	1900 2000 2300 2000
+	1400 2250 1800 2250
 Wire Wire Line
-	2300 2450 1900 2450
-Text Label 2300 3700 2    50   ~ 0
+	1800 2950 1400 2950
+Text Label 1800 3250 2    50   ~ 0
 DAC_GREEN
-Text Label 2300 2950 2    50   ~ 0
+Text Label 1800 2850 2    50   ~ 0
 H-SYNC
-Text Label 2300 2000 2    50   ~ 0
+Text Label 1800 2250 2    50   ~ 0
 AUDIO-L
-Text Label 2300 2450 2    50   ~ 0
+Text Label 1800 2950 2    50   ~ 0
 GND
 Wire Wire Line
-	2300 3400 1900 3400
-Text Label 2300 3400 2    50   ~ 0
-GND
+	1800 3450 1400 3450
 Wire Wire Line
-	2300 3600 1900 3600
-Text Label 2300 3600 2    50   ~ 0
+	1800 2350 1400 2350
+Text Label 1800 2350 2    50   ~ 0
 GND
-Wire Wire Line
-	2300 3800 1900 3800
-Text Label 2300 3800 2    50   ~ 0
-GND
-Wire Wire Line
-	2300 1900 1900 1900
-Text Label 2300 1900 2    50   ~ 0
-GND
-$Comp
-L Connector_Generic:Conn_01x06 J5
-U 1 1 5F32E2AB
-P 1700 3700
-F 0 "J5" H 1618 3175 50  0000 C CNN
-F 1 "Conn_01x06" H 1618 3266 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 1700 3700 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1700 3700 50  0001 C CNN
-F 4 "B6B-XH-A(LF)(SN)" H 1700 3700 50  0001 C CNN "Manufacturer Part Number"
-	1    1700 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J4
-U 1 1 5F335292
-P 1700 2750
-F 0 "J4" H 1618 2225 50  0000 C CNN
-F 1 "Conn_01x06" H 1618 2316 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 1700 2750 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1700 2750 50  0001 C CNN
-F 4 "B6B-XH-A(LF)(SN)" H 1700 2750 50  0001 C CNN "Manufacturer Part Number"
-	1    1700 2750
-	-1   0    0    1   
-$EndComp
-Text Label 2300 2750 2    50   ~ 0
+Text Label 1800 2650 2    50   ~ 0
 MODE1
 Wire Wire Line
-	1900 2750 2300 2750
+	1400 2650 1800 2650
 Wire Wire Line
-	2300 2650 1900 2650
-Text Label 2300 2650 2    50   ~ 0
+	1800 2550 1400 2550
+Text Label 1800 2550 2    50   ~ 0
 MODE2
-Text Label 2300 2550 2    50   ~ 0
+Text Label 1800 2450 2    50   ~ 0
 5V_IN
 Wire Wire Line
-	2300 2550 1900 2550
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 5F357949
-P 1700 1900
-F 0 "J3" H 1618 1575 50  0000 C CNN
-F 1 "Conn_01x03" H 1618 1666 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1700 1900 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1700 1900 50  0001 C CNN
-F 4 "B3B-XH-A(LF)(SN)" H 1700 1900 50  0001 C CNN "Manufacturer Part Number"
-	1    1700 1900
-	-1   0    0    1   
-$EndComp
+	1800 2450 1400 2450
 $Comp
 L Device:CP C8
 U 1 1 5F681767
@@ -1065,4 +1019,21 @@ Wire Wire Line
 Connection ~ 3900 3600
 Wire Wire Line
 	3900 3600 3400 3600
+Text Label 1800 3450 2    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x14 J3
+U 1 1 5F6E97C2
+P 1200 2850
+F 0 "J3" H 1118 1925 50  0000 C CNN
+F 1 "Conn_01x14" H 1118 2016 50  0000 C CNN
+F 2 "" H 1200 2850 50  0001 C CNN
+F 3 "~" H 1200 2850 50  0001 C CNN
+	1    1200 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 3050 1400 3050
+Text Label 1800 3050 2    50   ~ 0
+GND
 $EndSCHEMATC
