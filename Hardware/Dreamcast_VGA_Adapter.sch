@@ -394,19 +394,15 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead FB1
 U 1 1 5F21A0BA
-P 1350 6150
-F 0 "FB1" V 1076 6150 50  0000 C CNN
-F 1 "Ferrite_Bead" V 1167 6150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 6150 50  0001 C CNN
-F 3 "~" H 1350 6150 50  0001 C CNN
-F 4 "BLM21SP471SH1D" H 1350 6150 50  0001 C CNN "Manufacturer Part Number"
-	1    1350 6150
+P 2550 6150
+F 0 "FB1" V 2276 6150 50  0000 C CNN
+F 1 "Ferrite_Bead" V 2367 6150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 6150 50  0001 C CNN
+F 3 "~" H 2550 6150 50  0001 C CNN
+F 4 "BLM21SP471SH1D" H 2550 6150 50  0001 C CNN "Manufacturer Part Number"
+	1    2550 6150
 	0    1    1    0   
 $EndComp
-Text Label 900  6150 0    50   ~ 0
-5V_IN
-Wire Wire Line
-	900  6150 1200 6150
 $Comp
 L Device:R R10
 U 1 1 5F2231C2
@@ -788,8 +784,6 @@ Wire Wire Line
 	1650 6750 1650 6550
 Wire Wire Line
 	1650 6250 1650 6150
-Wire Wire Line
-	1650 6150 1500 6150
 $Comp
 L Connector:DB15_Female_HighDensity_MountingHoles J2
 U 1 1 5F28804E
@@ -864,13 +858,9 @@ F 4 "16ZLH100MEFC5X11" H 2200 6400 50  0001 C CNN "Manufacturer Part Number"
 $EndComp
 Wire Wire Line
 	1650 6150 2200 6150
-Connection ~ 1650 6150
 Wire Wire Line
 	2200 6250 2200 6150
-Connection ~ 2200 6150
-Wire Wire Line
-	2200 6150 2700 6150
-Text Label 2700 6150 2    50   ~ 0
+Text Label 2900 6150 2    50   ~ 0
 5V
 Text Label 2200 6750 1    50   ~ 0
 GND
@@ -1047,4 +1037,14 @@ F 4 "7816-0000PR" H 1500 2850 50  0001 C CNN "Manufacturer Part Number"
 $EndComp
 Text Notes 550  700  0    50   ~ 0
 Use cable P/N: 3659/16 1000\nhttps://multimedia.3m.com/mws/media/22054O/3mtm-rnd-shld-jckt-flat-cable-mass-term-3659-series-ts0083.pdf
+Wire Wire Line
+	2400 6150 2200 6150
+Connection ~ 2200 6150
+Wire Wire Line
+	2900 6150 2700 6150
+Connection ~ 1650 6150
+Wire Wire Line
+	1350 6150 1650 6150
+Text Label 1350 6150 0    50   ~ 0
+5V_IN
 $EndSCHEMATC
