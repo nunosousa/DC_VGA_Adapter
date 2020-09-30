@@ -802,56 +802,54 @@ F 4 "K61X-E15S-NJ" H 10000 3000 50  0001 C CNN "Manufacturer Part Number"
 	1    10000 3000
 	1    0    0    1   
 $EndComp
-Text Label 1800 2750 2    50   ~ 0
+Text Label 900  2950 0    50   ~ 0
 V-SYNC
-Text Label 1800 3150 2    50   ~ 0
+Text Label 2200 3050 2    50   ~ 0
 DAC_BLUE
-Text Label 1800 3350 2    50   ~ 0
+Text Label 2200 3250 2    50   ~ 0
 DAC_RED
 Wire Wire Line
-	1400 3350 1800 3350
+	1800 3250 2200 3250
 Wire Wire Line
-	1800 3150 1400 3150
+	2200 3050 1800 3050
 Wire Wire Line
-	1400 2750 1800 2750
+	1300 2950 900  2950
 Wire Wire Line
-	1800 2150 1400 2150
-Text Label 1800 2150 2    50   ~ 0
+	2200 2550 1800 2550
+Text Label 2200 2550 2    50   ~ 0
 AUDIO-R
 Wire Wire Line
-	1400 3250 1800 3250
+	1800 3150 2200 3150
 Wire Wire Line
-	1800 2850 1400 2850
+	2200 2950 1800 2950
 Wire Wire Line
-	1400 2250 1800 2250
+	1800 2650 2200 2650
 Wire Wire Line
-	1800 2950 1400 2950
-Text Label 1800 3250 2    50   ~ 0
+	900  2650 1300 2650
+Text Label 2200 3150 2    50   ~ 0
 DAC_GREEN
-Text Label 1800 2850 2    50   ~ 0
+Text Label 2200 2950 2    50   ~ 0
 H-SYNC
-Text Label 1800 2250 2    50   ~ 0
+Text Label 2200 2650 2    50   ~ 0
 AUDIO-L
-Text Label 1800 2950 2    50   ~ 0
+Text Label 900  2650 0    50   ~ 0
 GND
 Wire Wire Line
-	1800 3450 1400 3450
-Wire Wire Line
-	1800 2350 1400 2350
-Text Label 1800 2350 2    50   ~ 0
+	900  2750 1300 2750
+Text Label 900  2750 0    50   ~ 0
 GND
-Text Label 1800 2650 2    50   ~ 0
+Text Label 2200 2850 2    50   ~ 0
 MODE1
 Wire Wire Line
-	1400 2650 1800 2650
+	1800 2850 2200 2850
 Wire Wire Line
-	1800 2550 1400 2550
-Text Label 1800 2550 2    50   ~ 0
+	900  2850 1300 2850
+Text Label 900  2850 0    50   ~ 0
 MODE2
-Text Label 1800 2450 2    50   ~ 0
+Text Label 2200 2750 2    50   ~ 0
 5V_IN
 Wire Wire Line
-	1800 2450 1400 2450
+	2200 2750 1800 2750
 $Comp
 L Device:CP C8
 U 1 1 5F681767
@@ -1019,21 +1017,34 @@ Wire Wire Line
 Connection ~ 3900 3600
 Wire Wire Line
 	3900 3600 3400 3600
-Text Label 1800 3450 2    50   ~ 0
+Wire Wire Line
+	900  3050 1300 3050
+Text Label 900  3050 0    50   ~ 0
+GND
+Wire Wire Line
+	900  3250 1300 3250
+Text Label 900  3250 0    50   ~ 0
+GND
+Wire Wire Line
+	900  3150 1300 3150
+Text Label 900  3150 0    50   ~ 0
+GND
+Wire Wire Line
+	900  2550 1300 2550
+Text Label 900  2550 0    50   ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_01x14 J3
-U 1 1 5F6E97C2
-P 1200 2850
-F 0 "J3" H 1118 1925 50  0000 C CNN
-F 1 "Conn_01x14" H 1118 2016 50  0000 C CNN
-F 2 "" H 1200 2850 50  0001 C CNN
-F 3 "~" H 1200 2850 50  0001 C CNN
-	1    1200 2850
-	-1   0    0    1   
+L Connector_Generic:Conn_02x08_Odd_Even J3
+U 1 1 5F7CB957
+P 1500 2850
+F 0 "J3" H 1550 3367 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 1550 3276 50  0000 C CNN
+F 2 "" H 1500 2850 50  0001 C CNN
+F 3 "https://multimedia.3m.com/mws/media/375264O/3mtm-100-in-pcb-100x-100-two-row-78xx-series-ts2104.pdf" H 1500 2850 50  0001 C CNN
+F 4 "7816-0000PR" H 1500 2850 50  0001 C CNN "Manufacturer Part Number"
+	1    1500 2850
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 3050 1400 3050
-Text Label 1800 3050 2    50   ~ 0
-GND
+Text Notes 550  700  0    50   ~ 0
+Use cable P/N: 3659/16 1000\nhttps://multimedia.3m.com/mws/media/22054O/3mtm-rnd-shld-jckt-flat-cable-mass-term-3659-series-ts0083.pdf
 $EndSCHEMATC
