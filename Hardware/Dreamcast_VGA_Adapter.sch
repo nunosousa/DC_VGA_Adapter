@@ -847,25 +847,23 @@ Wire Wire Line
 $Comp
 L Device:CP C8
 U 1 1 5F681767
-P 2200 6400
-F 0 "C8" H 2318 6446 50  0000 L CNN
-F 1 "100uCP" H 2318 6355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2238 6250 50  0001 C CNN
-F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_zlh.pdf" H 2200 6400 50  0001 C CNN
-F 4 "16ZLH100MEFC5X11" H 2200 6400 50  0001 C CNN "Manufacturer Part Number"
-	1    2200 6400
+P 1150 6400
+F 0 "C8" H 1268 6446 50  0000 L CNN
+F 1 "33uCP" H 1268 6355 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 1188 6250 50  0001 C CNN
+F 3 "http://datasheets.avx.com/TAJ.pdf" H 1150 6400 50  0001 C CNN
+F 4 "TAJB336K006RNJ" H 1150 6400 50  0001 C CNN "Manufacturer Part Number"
+	1    1150 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 6150 2200 6150
-Wire Wire Line
-	2200 6250 2200 6150
+	1150 6250 1150 6150
 Text Label 2900 6150 2    50   ~ 0
 5V
-Text Label 2200 6750 1    50   ~ 0
+Text Label 1150 6750 1    50   ~ 0
 GND
 Wire Wire Line
-	2200 6750 2200 6550
+	1150 6750 1150 6550
 $Comp
 L Device:R R8
 U 1 1 5F688AE7
@@ -1038,13 +1036,36 @@ $EndComp
 Text Notes 550  700  0    50   ~ 0
 Use cable P/N: 3659/16 1000\nhttps://multimedia.3m.com/mws/media/22054O/3mtm-rnd-shld-jckt-flat-cable-mass-term-3659-series-ts0083.pdf
 Wire Wire Line
-	2400 6150 2200 6150
-Connection ~ 2200 6150
-Wire Wire Line
 	2900 6150 2700 6150
-Connection ~ 1650 6150
-Wire Wire Line
-	1350 6150 1650 6150
-Text Label 1350 6150 0    50   ~ 0
+Text Label 700  6150 0    50   ~ 0
 5V_IN
+Wire Wire Line
+	1650 6150 2150 6150
+$Comp
+L Device:C C21
+U 1 1 5F7A229E
+P 2150 6400
+F 0 "C21" H 2265 6446 50  0000 L CNN
+F 1 "1uC" H 2265 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 6250 50  0001 C CNN
+F 3 "~" H 2150 6400 50  0001 C CNN
+F 4 "" H 2150 6400 50  0001 C CNN "Manufacturer Part Number"
+	1    2150 6400
+	1    0    0    -1  
+$EndComp
+Text Label 2150 6750 1    50   ~ 0
+GND
+Wire Wire Line
+	2150 6750 2150 6550
+Wire Wire Line
+	2150 6250 2150 6150
+Connection ~ 2150 6150
+Wire Wire Line
+	2150 6150 2400 6150
+Wire Wire Line
+	700  6150 1150 6150
+Connection ~ 1650 6150
+Connection ~ 1150 6150
+Wire Wire Line
+	1150 6150 1650 6150
 $EndSCHEMATC
