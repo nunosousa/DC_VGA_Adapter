@@ -394,13 +394,13 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead FB1
 U 1 1 5F21A0BA
-P 2550 6150
-F 0 "FB1" V 2276 6150 50  0000 C CNN
-F 1 "Ferrite_Bead" V 2367 6150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 6150 50  0001 C CNN
-F 3 "~" H 2550 6150 50  0001 C CNN
-F 4 "BLM21SP471SH1D" H 2550 6150 50  0001 C CNN "Manufacturer Part Number"
-	1    2550 6150
+P 1400 6150
+F 0 "FB1" V 1126 6150 50  0000 C CNN
+F 1 "Ferrite_Bead" V 1217 6150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1330 6150 50  0001 C CNN
+F 3 "~" H 1400 6150 50  0001 C CNN
+F 4 "BLM21SP471SH1D" H 1400 6150 50  0001 C CNN "Manufacturer Part Number"
+	1    1400 6150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -769,21 +769,21 @@ Wire Wire Line
 $Comp
 L Device:C C17
 U 1 1 5F25A73A
-P 1650 6400
-F 0 "C17" H 1765 6446 50  0000 L CNN
-F 1 "0.1uC" H 1765 6355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1688 6250 50  0001 C CNN
-F 3 "~" H 1650 6400 50  0001 C CNN
-F 4 "AC0805KRX7R7BB104" H 1650 6400 50  0001 C CNN "Manufacturer Part Number"
-	1    1650 6400
+P 2100 6400
+F 0 "C17" H 2215 6446 50  0000 L CNN
+F 1 "0.1uC" H 2215 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2138 6250 50  0001 C CNN
+F 3 "~" H 2100 6400 50  0001 C CNN
+F 4 "AC0805KRX7R7BB104" H 2100 6400 50  0001 C CNN "Manufacturer Part Number"
+	1    2100 6400
 	1    0    0    -1  
 $EndComp
-Text Label 1650 6750 1    50   ~ 0
+Text Label 2100 6750 1    50   ~ 0
 GND
 Wire Wire Line
-	1650 6750 1650 6550
+	2100 6750 2100 6550
 Wire Wire Line
-	1650 6250 1650 6150
+	2100 6250 2100 6150
 $Comp
 L Connector:DB15_Female_HighDensity_MountingHoles J2
 U 1 1 5F28804E
@@ -847,23 +847,23 @@ Wire Wire Line
 $Comp
 L Device:CP C8
 U 1 1 5F681767
-P 1150 6400
-F 0 "C8" H 1268 6446 50  0000 L CNN
-F 1 "33uCP" H 1268 6355 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 1188 6250 50  0001 C CNN
-F 3 "http://datasheets.avx.com/TAJ.pdf" H 1150 6400 50  0001 C CNN
-F 4 "TAJB336K006RNJ" H 1150 6400 50  0001 C CNN "Manufacturer Part Number"
-	1    1150 6400
+P 1600 6400
+F 0 "C8" H 1718 6446 50  0000 L CNN
+F 1 "33uCP" H 1718 6355 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 1638 6250 50  0001 C CNN
+F 3 "http://datasheets.avx.com/TAJ.pdf" H 1600 6400 50  0001 C CNN
+F 4 "TAJB336K006RNJ" H 1600 6400 50  0001 C CNN "Manufacturer Part Number"
+	1    1600 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 6250 1150 6150
-Text Label 2900 6150 2    50   ~ 0
+	1600 6250 1600 6150
+Text Label 2850 6150 2    50   ~ 0
 5V
-Text Label 1150 6750 1    50   ~ 0
+Text Label 1600 6750 1    50   ~ 0
 GND
 Wire Wire Line
-	1150 6750 1150 6550
+	1600 6750 1600 6550
 $Comp
 L Device:R R8
 U 1 1 5F688AE7
@@ -1036,36 +1036,36 @@ $EndComp
 Text Notes 550  700  0    50   ~ 0
 Use cable P/N: 3659/16 1000\nhttps://multimedia.3m.com/mws/media/22054O/3mtm-rnd-shld-jckt-flat-cable-mass-term-3659-series-ts0083.pdf
 Wire Wire Line
-	2900 6150 2700 6150
-Text Label 700  6150 0    50   ~ 0
+	1250 6150 1050 6150
+Text Label 1050 6150 0    50   ~ 0
 5V_IN
 Wire Wire Line
-	1650 6150 2150 6150
+	2100 6150 2600 6150
 $Comp
 L Device:C C21
 U 1 1 5F7A229E
-P 2150 6400
-F 0 "C21" H 2265 6446 50  0000 L CNN
-F 1 "1uC" H 2265 6355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 6250 50  0001 C CNN
-F 3 "~" H 2150 6400 50  0001 C CNN
-F 4 "" H 2150 6400 50  0001 C CNN "Manufacturer Part Number"
-	1    2150 6400
+P 2600 6400
+F 0 "C21" H 2715 6446 50  0000 L CNN
+F 1 "1uC" H 2715 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2638 6250 50  0001 C CNN
+F 3 "~" H 2600 6400 50  0001 C CNN
+F 4 "" H 2600 6400 50  0001 C CNN "Manufacturer Part Number"
+	1    2600 6400
 	1    0    0    -1  
 $EndComp
-Text Label 2150 6750 1    50   ~ 0
+Text Label 2600 6750 1    50   ~ 0
 GND
 Wire Wire Line
-	2150 6750 2150 6550
+	2600 6750 2600 6550
 Wire Wire Line
-	2150 6250 2150 6150
-Connection ~ 2150 6150
+	2600 6250 2600 6150
+Connection ~ 2600 6150
 Wire Wire Line
-	2150 6150 2400 6150
+	2600 6150 2850 6150
+Connection ~ 2100 6150
 Wire Wire Line
-	700  6150 1150 6150
-Connection ~ 1650 6150
-Connection ~ 1150 6150
+	1600 6150 2100 6150
 Wire Wire Line
-	1150 6150 1650 6150
+	1550 6150 1600 6150
+Connection ~ 1600 6150
 $EndSCHEMATC
