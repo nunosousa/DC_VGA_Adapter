@@ -1049,7 +1049,7 @@ F 0 "C21" H 2715 6446 50  0000 L CNN
 F 1 "1uC" H 2715 6355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2638 6250 50  0001 C CNN
 F 3 "~" H 2600 6400 50  0001 C CNN
-F 4 "" H 2600 6400 50  0001 C CNN "Manufacturer Part Number"
+F 4 "CC0805MKX7R7BB105" H 2600 6400 50  0001 C CNN "Manufacturer Part Number"
 	1    2600 6400
 	1    0    0    -1  
 $EndComp
