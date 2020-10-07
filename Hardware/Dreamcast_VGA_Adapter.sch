@@ -1033,8 +1033,8 @@ F 4 "7816-0000PR" H 1500 2850 50  0001 C CNN "Manufacturer Part Number"
 	1    1500 2850
 	1    0    0    -1  
 $EndComp
-Text Notes 550  700  0    50   ~ 0
-Use cable P/N: 3659/16 1000\nhttps://multimedia.3m.com/mws/media/22054O/3mtm-rnd-shld-jckt-flat-cable-mass-term-3659-series-ts0083.pdf
+Text Notes 550  900  0    50   ~ 0
+Use cable P/N: 3659/16 1000\nhttps://multimedia.3m.com/mws/media/22054O/3mtm-rnd-shld-jckt-flat-cable-mass-term-3659-series-ts0083.pdf\n\nUse box P/N: 1593KBK\nhttp://www.hammondmfg.com/pdf/1593K.pdf
 Wire Wire Line
 	1250 6150 1050 6150
 Text Label 1050 6150 0    50   ~ 0
