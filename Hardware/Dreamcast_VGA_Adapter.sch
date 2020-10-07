@@ -1027,7 +1027,7 @@ U 1 1 5F7CB957
 P 1500 2850
 F 0 "J3" H 1550 3367 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 1550 3276 50  0000 C CNN
-F 2 "" H 1500 2850 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 1500 2850 50  0001 C CNN
 F 3 "https://multimedia.3m.com/mws/media/375264O/3mtm-100-in-pcb-100x-100-two-row-78xx-series-ts2104.pdf" H 1500 2850 50  0001 C CNN
 F 4 "7816-0000PR" H 1500 2850 50  0001 C CNN "Manufacturer Part Number"
 	1    1500 2850
