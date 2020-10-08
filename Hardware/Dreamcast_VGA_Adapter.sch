@@ -86,11 +86,11 @@ Text Label 7050 6300 2    50   ~ 0
 H-SYNC_OUT
 Text Label 7050 5400 2    50   ~ 0
 V-SYNC_OUT
-Text Label 8200 2700 2    50   ~ 0
-FILT_BLUE
-Text Label 8200 1800 2    50   ~ 0
-FILT_GREEN
 Text Label 8200 3600 2    50   ~ 0
+FILT_BLUE
+Text Label 8200 2700 2    50   ~ 0
+FILT_GREEN
+Text Label 8200 1800 2    50   ~ 0
 FILT_RED
 Text Label 2650 5050 2    50   ~ 0
 MODE1
@@ -297,11 +297,11 @@ Wire Wire Line
 Wire Wire Line
 	7400 4000 7400 3600
 Wire Wire Line
+	7750 3600 8200 3600
+Wire Wire Line
 	7750 2700 8200 2700
 Wire Wire Line
 	7750 1800 8200 1800
-Wire Wire Line
-	7750 3600 8200 3600
 Wire Wire Line
 	7450 1800 7400 1800
 Connection ~ 7400 1800
@@ -323,9 +323,9 @@ F 4 "THS7316DR" H 6100 2750 50  0001 C CNN "Manufacturer Part Number"
 	1    6100 2750
 	1    0    0    -1  
 $EndComp
-Text Label 2800 1800 0    50   ~ 0
-DAC_GREEN
 Text Label 2800 2700 0    50   ~ 0
+DAC_GREEN
+Text Label 2800 3600 0    50   ~ 0
 DAC_BLUE
 Text Label 6100 3350 1    50   ~ 0
 GND
@@ -443,7 +443,7 @@ Text Label 5100 3100 3    50   ~ 0
 5V
 Wire Wire Line
 	5100 3100 5100 3250
-Text Label 2800 3600 0    50   ~ 0
+Text Label 2800 1800 0    50   ~ 0
 DAC_RED
 Wire Wire Line
 	6600 2700 6900 2700
@@ -798,14 +798,14 @@ F 4 "K61X-E15S-NJ" H 10000 3000 50  0001 C CNN "Manufacturer Part Number"
 $EndComp
 Text Label 900  2950 0    50   ~ 0
 V-SYNC
-Text Label 2200 3050 2    50   ~ 0
-DAC_BLUE
 Text Label 2200 3250 2    50   ~ 0
+DAC_BLUE
+Text Label 2200 3050 2    50   ~ 0
 DAC_RED
 Wire Wire Line
-	1800 3250 2200 3250
+	1800 3050 2200 3050
 Wire Wire Line
-	2200 3050 1800 3050
+	2200 3250 1800 3250
 Wire Wire Line
 	1300 2950 900  2950
 Wire Wire Line
@@ -981,14 +981,13 @@ Wire Wire Line
 Wire Wire Line
 	4350 1800 3900 1800
 Connection ~ 4350 1800
-Connection ~ 3400 1800
 Wire Wire Line
-	3400 1800 2800 1800
+	3400 2700 2800 2700
 Connection ~ 3900 1800
 Wire Wire Line
 	3900 1800 3400 1800
 Wire Wire Line
-	2800 2700 3400 2700
+	2800 3600 3400 3600
 Connection ~ 4350 2700
 Connection ~ 3400 2700
 Wire Wire Line
@@ -999,9 +998,8 @@ Wire Wire Line
 Wire Wire Line
 	4350 3600 3900 3600
 Connection ~ 4350 3600
-Connection ~ 3400 3600
 Wire Wire Line
-	3400 3600 2800 3600
+	3400 1800 2800 1800
 Connection ~ 3900 3600
 Wire Wire Line
 	3900 3600 3400 3600
@@ -1068,4 +1066,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 6150 1600 6150
 Connection ~ 1600 6150
+Connection ~ 3400 3600
+Connection ~ 3400 1800
 $EndSCHEMATC
