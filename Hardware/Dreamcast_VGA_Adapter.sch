@@ -730,10 +730,6 @@ Wire Wire Line
 	5400 5400 5500 5400
 Wire Wire Line
 	5500 6300 5400 6300
-Text Label 10000 2100 3    50   ~ 0
-GND
-Wire Wire Line
-	10000 2300 10000 2100
 Text Notes 5850 1000 0    50   ~ 0
 Video filter
 Text Notes 6000 4700 0    50   ~ 0
@@ -1068,4 +1064,5 @@ Wire Wire Line
 Connection ~ 1600 6150
 Connection ~ 3400 3600
 Connection ~ 3400 1800
+NoConn ~ 10000 2300
 $EndSCHEMATC
