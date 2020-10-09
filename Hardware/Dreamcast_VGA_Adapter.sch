@@ -323,9 +323,9 @@ F 4 "THS7316DR" H 6100 2750 50  0001 C CNN "Manufacturer Part Number"
 	1    6100 2750
 	1    0    0    -1  
 $EndComp
-Text Label 2800 2700 0    50   ~ 0
+Text Label 3400 2700 0    50   ~ 0
 DAC_GREEN
-Text Label 2800 3600 0    50   ~ 0
+Text Label 3400 3600 0    50   ~ 0
 DAC_BLUE
 Text Label 6100 3350 1    50   ~ 0
 GND
@@ -443,7 +443,7 @@ Text Label 5100 3100 3    50   ~ 0
 5V
 Wire Wire Line
 	5100 3100 5100 3250
-Text Label 2800 1800 0    50   ~ 0
+Text Label 3400 1800 0    50   ~ 0
 DAC_RED
 Wire Wire Line
 	6600 2700 6900 2700
@@ -462,60 +462,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 3600 6900 3600
 Connection ~ 6900 3600
-$Comp
-L Device:C C12
-U 1 1 5F1E6679
-P 3400 2000
-F 0 "C12" H 3515 2046 50  0000 L CNN
-F 1 "5pC" H 3515 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 1850 50  0001 C CNN
-F 3 "~" H 3400 2000 50  0001 C CNN
-F 4 "08055A5R0CAT2A" H 3400 2000 50  0001 C CNN "Manufacturer Part Number"
-	1    3400 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 5F1E76F3
-P 3400 2900
-F 0 "C13" H 3515 2946 50  0000 L CNN
-F 1 "5pC" H 3515 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 2750 50  0001 C CNN
-F 3 "~" H 3400 2900 50  0001 C CNN
-F 4 "08055A5R0CAT2A" H 3400 2900 50  0001 C CNN "Manufacturer Part Number"
-	1    3400 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 5F1E806E
-P 3400 3800
-F 0 "C14" H 3515 3846 50  0000 L CNN
-F 1 "5pC" H 3515 3755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 3650 50  0001 C CNN
-F 3 "~" H 3400 3800 50  0001 C CNN
-F 4 "08055A5R0CAT2A" H 3400 3800 50  0001 C CNN "Manufacturer Part Number"
-	1    3400 3800
-	1    0    0    -1  
-$EndComp
-Text Label 3400 2350 1    50   ~ 0
-GND
-Wire Wire Line
-	3400 2150 3400 2350
-Text Label 3400 3250 1    50   ~ 0
-GND
-Wire Wire Line
-	3400 3050 3400 3250
-Text Label 3400 4150 1    50   ~ 0
-GND
-Wire Wire Line
-	3400 3950 3400 4150
-Wire Wire Line
-	3400 3600 3400 3650
-Wire Wire Line
-	3400 2750 3400 2700
-Wire Wire Line
-	3400 1850 3400 1800
 Wire Wire Line
 	5100 2700 5250 2700
 Connection ~ 5100 2700
@@ -977,28 +923,12 @@ Wire Wire Line
 Wire Wire Line
 	4350 1800 3900 1800
 Connection ~ 4350 1800
-Wire Wire Line
-	3400 2700 2800 2700
-Connection ~ 3900 1800
-Wire Wire Line
-	3900 1800 3400 1800
-Wire Wire Line
-	2800 3600 3400 3600
 Connection ~ 4350 2700
-Connection ~ 3400 2700
-Wire Wire Line
-	3400 2700 3900 2700
-Connection ~ 3900 2700
 Wire Wire Line
 	3900 2700 4350 2700
 Wire Wire Line
 	4350 3600 3900 3600
 Connection ~ 4350 3600
-Wire Wire Line
-	3400 1800 2800 1800
-Connection ~ 3900 3600
-Wire Wire Line
-	3900 3600 3400 3600
 Wire Wire Line
 	900  3050 1300 3050
 Text Label 900  3050 0    50   ~ 0
@@ -1062,7 +992,14 @@ Wire Wire Line
 Wire Wire Line
 	1550 6150 1600 6150
 Connection ~ 1600 6150
-Connection ~ 3400 3600
-Connection ~ 3400 1800
 NoConn ~ 10000 2300
+Wire Wire Line
+	3900 3600 3400 3600
+Connection ~ 3900 3600
+Wire Wire Line
+	3400 2700 3900 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	3400 1800 3900 1800
+Connection ~ 3900 1800
 $EndSCHEMATC
