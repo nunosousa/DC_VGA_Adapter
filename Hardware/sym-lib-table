@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Amplifier_Video_custom)(type Legacy)(uri ${KIPRJMOD}/Amplifier_Video_custom.lib)(options "")(descr ""))
+  (lib (name "Amplifier_Video_custom")(type "Legacy")(uri "${KIPRJMOD}/Amplifier_Video_custom.lib")(options "")(descr ""))
+  (lib (name "Dreamcast_VGA_Adapter-rescue")(type "Legacy")(uri "${KIPRJMOD}/Dreamcast_VGA_Adapter-rescue.lib")(options "")(descr ""))
 )
